@@ -6,26 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   
-
-  <div data-erxes-kbase style="width:1000px;height:1000px;
+<div class="doc">
+  <div data-erxes-kbase style="width:900px;height:900px;
   margin: 0 auto;
-  @media (max-width: 550px) {
-  html {
-    font-size: 40%;
-  }
-
-  
-  .data-erxes-kbase{
-    margin: 0 auto;
+  @media (max-width: 900px) {margin: 0 auto;
     display: flex;
     width: 100%;
   }
-}
-  "></div>
+  @media (max-width: 700px) {margin: 0 auto;
+    display: flex;
+    width: 100%;
+  }
+  @media (max-width: 550px) {margin: 0 auto;
+    display: flex;
+    width: 100%;
+  }
+  
+  ">
+  </div></div>
   <script>
     window.erxesSettings = {
       knowledgeBase: {
@@ -54,7 +57,8 @@
 
   </script>
   
-
+ 
+</div>
 
 
 </body>
